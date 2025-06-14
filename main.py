@@ -36,7 +36,7 @@ def main():
     print("\nPaste the counseling transcript (press enter twice to finish):")
     lines = []
     while True:
-        line = input()
+        line = input()        
         if line == "":
             break
         lines.append(line)
